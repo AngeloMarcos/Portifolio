@@ -162,3 +162,23 @@ i.menu-mobile{
         margin-left: 0px;
     }
 }
+.list-1{
+    font-size: 25px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #149ddd;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #252c90;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #252c90;  /* creates padding around scroll thumb */
+  }
+  .section-bg{
+    background-color:  #eff5ff;
+  }
