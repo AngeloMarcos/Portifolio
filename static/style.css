@@ -89,7 +89,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("../static/Imgs/programacao2.jpg");
+    background-image: url("Imgs/programacao2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
