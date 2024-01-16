@@ -55,7 +55,7 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#portifolio">
-                            <i class="bi bi-person-fill"></i>
+                            <i class="bi bi-clipboard2-data"></i></i>
                             Portifólio</a>
                       </li>
                       <li class="nav-item">
@@ -265,25 +265,48 @@
 
 
        <!-- Outras section -->
-
-       <section class="pt-5 pb-5" id="">
-            <div class="containter mb-5">
-                    <h2 class="pt-3 pb-3">Contato</h2>
-
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="col-md-7">
-                                <div class="card p-5 shadow border-0">
-                                    <h4></h4>
-                                </div>
-                            </div>
+      
+       
+       <section class="pt-5 pb-5" id="contato">
+        <div class="container mb-5">
+            <h2 class="pt-3 pb-3">Contato</h2>
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card p-5 shadow border-0">
+                        <div class="endereco">
+                            <h4><i class="bi bi-geo-alt"></i> Localização</h4>
+                            <p>Poá - SP</p>
+                        </div>
+                        <div class="email">
+                            <h4><i class="bi bi-envelope"></i> E-Mail</h4>
+                            <p>angelobispofilho@gmail.com</p>
+                        </div>
+                        <div class="whatsapp pb-3">
+                            <h4><i class="bi bi-whatsapp "></i> Whatsapp</h4>
+                            <button class="btn btn-success "><a href="https://wa.me/5511991909106/?text=textourl"></a>Conversar</button>
                         </div>
                     </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="card p-5 h-100 shadow border-0">
+                        <form>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Endereço de Email</label>
+                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="messageInput" class="form-label">Deixe uma mensagem!</label>
+                                <textarea class="form-control" id="messageInput" placeholder="Escrever..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-
-       </section>
-
-
+        </div>
+    </section>
     </main>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
