@@ -284,20 +284,33 @@
                         </div>
                         <div class="whatsapp pb-3">
                             <h4><i class="bi bi-whatsapp "></i> Whatsapp</h4>
-                            <button class="btn btn-success "><a href="https://wa.me/5511991909106/?text=textourl"></a>Conversar</button>
+                            <a href="https://wa.me/5511991909106/?text=textourl"> <button class="btn btn-success ">Conversar</button></a>
+                           
                         </div>
                     </div>
                 </div>
     
                 <div class="col-md-6">
                     <div class="card p-5 h-100 shadow border-0">
-                        <form>
-                            <div class="mb-3">
-                                <label for="emailInput" class="form-label">Endereço de Email</label>
-                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+                        <form class="row g-3">
+                            
+                            <div class="mb-3 col-md-6">
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input type="name" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="nome" class="form-label">Sobrenome:</label>
+                                <input type="name" class="form-control" id="nome" aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="mb-3 col-md-12">
+                                <label for="sobrenome" class="form-label">Endereço de Email:</label>
+                                <input type="name" class="form-control" id="sobrenome" aria-describedby="emailHelp" required>
+
+                              
                             </div>
                             <div class="mb-3">
-                                <label for="messageInput" class="form-label">Deixe uma mensagem!</label>
+                                <label for="messageInput" class="form-label">Deixe uma mensagem:</label>
                                 <textarea class="form-control" id="messageInput" placeholder="Escrever..." required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
