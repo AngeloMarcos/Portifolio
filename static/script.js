@@ -23,3 +23,15 @@ navItem.forEach(item =>{
         }
     })
 })
+
+
+//Ativar carregamento no botão de enviar formulário
+
+const btnEnviar = document.querySelector('#btn-enviar');
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader');
+
+btnEnviar.addEventListener("click", () => {
+    console.log("Botão clicado");
+    btnEnviarLoader.style.display = "block";
+    btnEnviar.style.display = "none";
+});

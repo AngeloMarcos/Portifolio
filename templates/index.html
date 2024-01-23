@@ -316,9 +316,16 @@
                                 <label for="mensagem" class="form-label">Deixe uma mensagem:</label>
                                 <textarea class="form-control" name="mensagem" id="messageInput" rows="10" placeholder="Digite sua mensagem..." required></textarea>
                             </div>
-                         <div class="col-12 d-flex justify-content-center">
-                            <button type="submit"  class="btn btn-outline-primary">Enviar Mensagem</button>
-                         </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <button type="submit" id="btn-enviar" class="btn btn-outline-primary">Enviar Mensagem</button>
+                            </div>
+                            
+                            <div class="col-12 d-flex justify-content-center">
+                                <button id="btn-enviar-loader" class="btn btn-primary" type="button" disabled>
+                                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                    <span role="status">Enviando...</span>
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

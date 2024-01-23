@@ -182,3 +182,6 @@ body::-webkit-scrollbar {
   .section-bg{
     background-color:  #eff5ff;
   }
+#btn-enviar-loader{
+    display: none;
+}
