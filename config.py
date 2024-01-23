@@ -1,2 +1,2 @@
 email = 'angecodesp@gmail.com  '
-senha = 'AngeCode2024'
+senha = 'kmdcsqoczybvksuk'
