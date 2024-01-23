@@ -33,11 +33,12 @@ def index():
 def send():
     if request.method == 'POST': 
         formContato = Contato(
-            request.form["nome"],
+            request.form["nome"], 
             request.form ["email"],
             request.form ["mensagem"]
         )
-        
+         
+         
         msg = Message(
             subject= f'{formContato.nome} te enviou uma mensagem no portifolio', 
             sender =  app.config.get("MAIL_USERNAME"),
